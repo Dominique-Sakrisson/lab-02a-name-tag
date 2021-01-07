@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Welcome to your tag</h1>
+        </header>
+            <summary class="instructions">
+                <span>Click the arrow to show the things your name tag allows for you</span>
+                <details>
+                    <ul class="">
+                        <li><a href="#">Building access</a></li>
+                        <li><a href="#">Time punch</a></li>
+                        <li><a href="#">Paycheck Repository access</a></li>
+                    </ul>
+                </details>
+            </summary>
+
+            <section class="inputs">
+                <span>Time to build your own custom tag!</span><br/>
+                <input id="name-input" type="text" placeholder="Your name here">
+                <input id="pro-input" type="text" placeholder="Your preffered pronous here"><br/>
+                
+                <select name="font-input" id="font-input">
+                    <option value="booboooo">Choose your font</option>
+                    <option id="mono" value="monospace">Monospace</option>
+                    <option id="sans" value="sans-serif">Sans serif</option>
+                    <option id="serif" value="serif">Serif</option>
+                </select>
+
+                <button id="button">Make your tag</button>
+                <span id="name-count"></span>
+
+            </section>
+
+            <div id="name-tag" class="tag-container">
+                <header class="tag-head">
+                    <h1><span class="big-text">Hello</span><br/> my name is</h1>
+                </header>
+    
+                <main class="tag-body">
+                    <p id="tag-name">(your name here)
+                    </p>
+                    <sup><span id="tag-pro">(pronoun)</span></sup>
+                </main>
+                
+                <footer class="tag-footer">
+                    <br/>
+                </footer>
+            </div>
+
+            <section class="side-bar">
+                A pretty boring side bar
+            </section>
+       
+        <footer class="footer">
+            We have your footer here <br>copyright 202000
+        </footer>
+        
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
